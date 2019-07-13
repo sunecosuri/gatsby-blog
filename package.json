@@ -16,7 +16,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "start": "",
+    "start":  "echo \"published!\"",
     "dev": "gatsby clean && gatsby develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
