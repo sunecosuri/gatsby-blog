@@ -21,10 +21,10 @@ module.exports = {
     showMenuItems: 1,
     menuMoreText: 'showMore',
     mainMenu: [
-      // {
-      //   title: '',
-      //   path: '',
-      // },
+      {
+        title: '',
+        path: '',
+      },
       // {
       //   title: 'Twitter',
       //   path: 'https://twitter.com/sunecosuri',
