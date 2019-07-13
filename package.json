@@ -36,6 +36,7 @@
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-remark": "^2.1.19",
     "gatsby-transformer-sharp": "^2.1.8",
+    "postcss-preset-env": "^6.5.0",
     "prismjs": "^1.15.0",
     "prop-types": "^15.6.2",
     "react": "^16.8.0",
@@ -60,7 +61,6 @@
     "postcss-loader": "^3.0.0",
     "postcss-mixins": "^6.2.1",
     "postcss-nested": "^4.1.1",
-    "postcss-preset-env": "^6.5.0",
     "postcss-url": "^8.0.0",
     "prettier": "^1.15.2",
     "rambdax": "^1.8.0"
