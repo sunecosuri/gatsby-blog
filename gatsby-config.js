@@ -4,6 +4,7 @@ const postCSSUrl = require('postcss-url')
 const postCSSImports = require('postcss-import')
 const cssnano = require('cssnano')
 const postCSSMixins = require('postcss-mixins')
+const config = require('./siteConfig')
 
 module.exports = {
   siteMetadata: {
@@ -117,6 +118,14 @@ module.exports = {
               aliases: {},
               showLineNumbers: false,
               noInlineHighlight: false,
+            },
+          },
+          {
+            resolve: `gatsby-plugin-google-tagmanager`,
+              options: {
+              id: config.siteGTMID,
+              trackingId: config.siteGATrackingID,
+              defaultDataLayer: { platform: 'gatsby' },
             },
           },
         ],
