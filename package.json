@@ -17,11 +17,13 @@
   "scripts": {
     "build": "gatsby build",
     "start": "echo \"published!\"",
+    "create:post": "hygen blog post",
     "dev": "gatsby clean && gatsby develop",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
+    "dayjs": "^1.8.15",
     "gatsby": "^2.0.76",
     "gatsby-awesome-pagination": "^0.3.3",
     "gatsby-image": "^2.0.20",
