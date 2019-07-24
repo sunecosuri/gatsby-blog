@@ -18,7 +18,7 @@
     "build": "gatsby build",
     "start": "echo \"published!\"",
     "create:post": "hygen blog post",
-    "dev": "gatsby clean && gatsby develop",
+    "dev": "gatsby clean && gatsby develop --port 8080",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
