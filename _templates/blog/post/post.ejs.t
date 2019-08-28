@@ -8,6 +8,6 @@ path: "/<%= date %>-01"
 date: "<%= date %>"
 # coverImage: "../images/hello.jpg"
 # excerpt: ''
-tags: [<%= tags %>]
+tags: [<%= h.split(tags) %>]
 
 ---
