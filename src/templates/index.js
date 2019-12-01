@@ -29,7 +29,7 @@ const Index = ({ data, pageContext: { nextPagePath, previousPagePath } }) => {
               tags,
             },
           } = node
-
+          
           return (
             <Post
               key={id}

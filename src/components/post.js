@@ -45,7 +45,7 @@ const Post = ({
 
         {coverImage && (
           <Img
-            fluid={coverImage.childImageSharp.fluid}
+            fluid={coverImage}
             className={style.coverImage}
           />
         )}
