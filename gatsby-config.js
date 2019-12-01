@@ -45,6 +45,7 @@ module.exports = {
     ],
   },
   plugins: [
+    `gatsby-plugin-twitter`,
     `babel-preset-gatsby`,
     `gatsby-plugin-react-helmet`,
     {
@@ -122,7 +123,7 @@ module.exports = {
           },
           {
             resolve: `gatsby-plugin-google-tagmanager`,
-              options: {
+            options: {
               id: config.siteGTMID,
               trackingId: config.siteGATrackingID,
               defaultDataLayer: { platform: 'gatsby' },
